@@ -26,7 +26,7 @@ return [
         'enabled' => false,
         'path' => base_path() . '/vendor/nwidart/laravel-modules/src/Commands/stubs',
         'files' => [
-            'start' => 'start.php',
+            'start' => 'bootstrap.php',
             'routes' => 'Http/routes.php',
             'json' => 'module.json',
             'views/index' => 'Resources/views/index.blade.php',
@@ -143,8 +143,8 @@ return [
     'composer' => [
         'vendor' => 'nwidart',
         'author' => [
-            'name' => 'Nicolas Widart',
-            'email' => 'n.widart@gmail.com',
+            'name' => 'Lucas Pires',
+            'email' => 'lucas.pires.mattos@gmail.com',
         ],
     ],
     /*
