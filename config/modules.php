@@ -72,7 +72,7 @@ return [
         |
         */
 
-        'assets' => public_path('modules'),
+        'assets' => public_path('vendor'),
         /*
         |--------------------------------------------------------------------------
         | The migrations path
@@ -83,7 +83,7 @@ return [
         |
         */
 
-        'migration' => base_path('database/migrations'),
+        'migration' => base_path('database/migrations/vendor'),
         /*
         |--------------------------------------------------------------------------
         | Generator path
@@ -126,7 +126,7 @@ return [
     */
 
     'scan' => [
-        'enabled' => false,
+        'enabled' => true,
         'paths' => [
             base_path('vendor/*/*'),
         ],
@@ -141,7 +141,7 @@ return [
     */
 
     'composer' => [
-        'vendor' => 'nwidart',
+        'vendor' => 'alohaagencia',
         'author' => [
             'name' => 'Lucas Pires',
             'email' => 'lucas.pires.mattos@gmail.com',

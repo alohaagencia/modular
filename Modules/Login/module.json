@@ -1,0 +1,15 @@
+{
+    "name": "Login",
+    "alias": "login",
+    "description": "Login authentication module",
+    "keywords": ["login", "authentication", "aloha"],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Login\\Providers\\LoginServiceProvider"
+    ],
+    "aliases":{},
+    "files": [
+        "bootstrap.php"
+    ]
+}

@@ -7,7 +7,8 @@
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.3.*",
-        "nwidart/laravel-modules": "~1.14"
+        "nwidart/laravel-modules": "~1.14",
+        "adamwathan/bootforms": "0.8.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
